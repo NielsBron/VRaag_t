@@ -11,6 +11,7 @@ public class MenuScript : MonoBehaviour
     public GameObject Logo;
     public GameObject CreditsText;
     public GameObject BlackScreen;
+    public PlayerController PlayerControllerScript;
     public void LoadScene()
     {
         StartCoroutine(StartGame());
@@ -23,6 +24,7 @@ public class MenuScript : MonoBehaviour
     IEnumerator StartMenu()
     {
         BlackScreen.SetActive(true);
+        PlayerControllerScript.ResetPositon();
         yield return new WaitForSeconds (1.0f);
         BlackScreen.GetComponent<Animation>().Play("FadeOut");
         yield return new WaitForSeconds (1.0f);

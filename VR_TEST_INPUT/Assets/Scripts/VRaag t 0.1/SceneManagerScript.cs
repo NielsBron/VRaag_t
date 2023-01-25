@@ -177,9 +177,9 @@ public class SceneManagerScript : MonoBehaviour
                 videoPlayer.url = "/storage/emulated/0/Android/data/com.StudioSpinLink.VRaagt/files/Scene1.mp4";
             }*/
         videoPlayer.Play();
-        PlayerControllerScript.ResetPositon();
-        ResetSkyboxRotation();
+        //ResetSkyboxRotation();
         RotateAmount = 80;
+        PlayerControllerScript.ResetPositon();
         MainCanvas.GetComponent<Canvas>().enabled = false;
         StartVideoButton.SetActive(false);
     }
@@ -205,9 +205,8 @@ public class SceneManagerScript : MonoBehaviour
                 videoPlayer.url = "/storage/emulated/0/Android/data/com.StudioSpinLink.VRaagt/files/Scene2.mp4";  
             }*/
             videoPlayer.Play();
-            PlayerControllerScript.ResetPositon();
-            ResetSkyboxRotation();
             RotateAmount = 28;
+            PlayerControllerScript.ResetPositon();
         }
     }
 
@@ -232,9 +231,8 @@ public class SceneManagerScript : MonoBehaviour
                 videoPlayer.url = "/storage/emulated/0/Android/data/com.StudioSpinLink.VRaagt/files/Scene3.mp4";  
             }*/
             videoPlayer.Play();
-            PlayerControllerScript.ResetPositon();
-            ResetSkyboxRotation();
             RotateAmount = -102;
+            PlayerControllerScript.ResetPositon();
         }
     }
         
@@ -259,9 +257,8 @@ public class SceneManagerScript : MonoBehaviour
                 videoPlayer.url = "/storage/emulated/0/Android/data/com.StudioSpinLink.VRaagt/files/Scene4.mp4";  
             }*/
             videoPlayer.Play();
-            PlayerControllerScript.ResetPositon();
-            ResetSkyboxRotation();
             RotateAmount = 90;
+            PlayerControllerScript.ResetPositon();
         }
     }
 
@@ -286,9 +283,8 @@ public class SceneManagerScript : MonoBehaviour
                 videoPlayer.url = "/storage/emulated/0/Android/data/com.StudioSpinLink.VRaagt/files/Scene5.mp4";  
             }*/
             videoPlayer.Play();
-            PlayerControllerScript.ResetPositon();
-            ResetSkyboxRotation();
             RotateAmount = 90;
+            PlayerControllerScript.ResetPositon();
 
         }
     }
@@ -314,9 +310,8 @@ public class SceneManagerScript : MonoBehaviour
                 videoPlayer.url = "/storage/emulated/0/Android/data/com.StudioSpinLink.VRaagt/files/Scene6.mp4";  
             }*/
             videoPlayer.Play();
-            PlayerControllerScript.ResetPositon();
-            ResetSkyboxRotation();
             RotateAmount = 90;
+            PlayerControllerScript.ResetPositon();
         }
     }
 
@@ -341,9 +336,8 @@ public class SceneManagerScript : MonoBehaviour
                 videoPlayer.url = "/storage/emulated/0/Android/data/com.StudioSpinLink.VRaagt/files/Scene7.mp4";  
             }*/
             videoPlayer.Play();
-            PlayerControllerScript.ResetPositon();
-            ResetSkyboxRotation();
             RotateAmount = 90;
+            PlayerControllerScript.ResetPositon();
         }
     }
 
@@ -368,9 +362,8 @@ public class SceneManagerScript : MonoBehaviour
                 videoPlayer.url = "/storage/emulated/0/Android/data/com.StudioSpinLink.VRaagt/files/Scene8.mp4";  
             }*/
             videoPlayer.Play();
-            PlayerControllerScript.ResetPositon();
-            ResetSkyboxRotation();
             RotateAmount = 113;
+            PlayerControllerScript.ResetPositon();
         }
     }
 
@@ -395,9 +388,8 @@ public class SceneManagerScript : MonoBehaviour
                 videoPlayer.url = "/storage/emulated/0/Android/data/com.StudioSpinLink.VRaagt/files/Scene9.mp4";  
             }*/
             videoPlayer.Play();
-            PlayerControllerScript.ResetPositon();
-            ResetSkyboxRotation();
             RotateAmount = 70;
+            PlayerControllerScript.ResetPositon();
         }
     }
 
