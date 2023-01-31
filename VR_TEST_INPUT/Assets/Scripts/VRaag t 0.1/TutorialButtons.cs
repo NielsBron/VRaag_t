@@ -52,6 +52,7 @@ public class TutorialButtons : MonoBehaviour
     public void StartBtn1()
     {
         StartCoroutine(StartBtn());
+        StartButton.SetActive(false);
     }
     
     IEnumerator StartBtn()
